@@ -1603,7 +1603,7 @@ var QueryExec = function(optObj) {
 			onstart:opts.onstart,
 			onend:opts.onend,
 	    onerror:onerror,
-	    headers:{Accept:"application/rdf+xml,application/sparql-results+xml"}
+	    headers:{Accept:"application/sparql-results+xml"}
 	};
 
 		if (!opts.endpoint) { opts.endpoint = '/sparql'; }
